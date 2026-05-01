@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DNS</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><h1>Domain Name System</h1></header>
+<nav><a href="../index.html">Home</a></nav>
+<main>
+<img src="images/dns.png" alt="DNS">
+ <p>
+        The Domain Name System (DNS) is a fundamental part of how the internet works. 
+        It translates human-readable domain names, such as <strong>google.com</strong>, 
+        into machine-readable IP addresses like <strong>142.250.190.78</strong>.
+    </p>
+
+    <p>
+        Computers communicate using IP addresses, not names. However, humans are not great at remembering long strings of numbers. 
+        DNS solves this problem by acting like the internet’s phonebook, matching easy-to-remember names with their correct numerical addresses.
+    </p>
+
+    <p>
+        When a user types a web address into a browser, the DNS process begins in the background:
+    </p>
+
+    <ul>
+        <li>The browser checks its local cache for the IP address</li>
+        <li>If not found, it queries a DNS resolver (usually provided by an ISP)</li>
+        <li>The resolver contacts other DNS servers if needed</li>
+        <li>The correct IP address is returned to the browser</li>
+        <li>The browser then connects to the web server using that IP address</li>
+    </ul>
+
+    <p>
+        This entire process usually takes milliseconds, making it feel instant to the user.
+    </p>
+
+    <p>
+        Example: when you enter <strong>google.com</strong>, DNS resolves it into a numerical IP address, 
+        allowing your browser to locate and load the correct server hosting the website.
+    </p>
+
+    <p>
+        Without DNS, users would need to memorize IP addresses for every website, which would make the internet 
+        significantly harder to use and much less practical.
+    </p>
+</main>
+</body>
+</html>
